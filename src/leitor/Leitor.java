@@ -26,7 +26,7 @@ public class Leitor {
      InputStream is = new FileInputStream(arquivo);
      InputStreamReader isr = new InputStreamReader(is);
         try (BufferedReader br = new BufferedReader(isr)) {
-            String s = br.readLine(); 
+            String s = br.readLine(); // primeira
             
             while (s != null) {
                 System.out.println(s);
@@ -50,7 +50,8 @@ public class Leitor {
      * @throws java.io.IOException
      */
   public static void main(String[] args) throws IOException {
-        escrever("arquivo.txt","opaoapoap");
+        escrever("arquivo.txt","Seu Texto Aqui");
+        ler("arquivo.txt");
    }
     
 }
