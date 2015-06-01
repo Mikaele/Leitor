@@ -8,7 +8,6 @@ package leitor;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -50,7 +49,7 @@ public class Leitor {
      * @throws java.io.IOException
      */
   public static void main(String[] args) throws IOException {
-        escrever("arquivo.txt","Seu Texto Aqui");
+        escrever("arquivo.txt","Mikaele");
         ler("arquivo.txt");
    }
     
