@@ -49,7 +49,7 @@ public class Leitor {
      * @throws java.io.IOException
      */
   public static void main(String[] args) throws IOException {
-        escrever("arquivo.txt","Harumi");
+        escrever("arquivo.txt","Harumi Miyamoto");
         ler("arquivo.txt");
    }
     
